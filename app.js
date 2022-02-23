@@ -17,4 +17,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+
+// TODO:
+// Oauth
+// Google sign-in
+
+// Access google calendar
+// Filter events
+// Output to PDF
+// chron
+// create events
+// customer / freelancers bots
+
 module.exports = app;
